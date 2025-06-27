@@ -1,0 +1,49 @@
+.container {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.row input {
+  flex: 1;
+}
+
+.remove {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.hash {
+  margin-left: 0.5rem;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 1rem;
+  border-radius: 4px;
+  max-width: 400px;
+}
+
+.modal-content button {
+  margin-top: 1rem;
+}
