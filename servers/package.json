@@ -1,0 +1,20 @@
+{
+  "name": "bcvision-servers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"npm run node --prefix eth\" \"npm run node --prefix solana\"",
+    "deploy:eth": "npm run deploy --prefix eth",
+    "deploy:solana": "npm run deploy --prefix solana",
+    "store_hash": "node store_hash.js",
+    "get_hash": "node get_hash.js",
+    "verify_diploma": "node verify_diploma.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "dependencies": {
+    "@project-serum/anchor": "^0.28.0",
+    "ethers": "^6.7.0"
+  }
+}
