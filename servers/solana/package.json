@@ -1,0 +1,13 @@
+{
+  "name": "bcvision-solana",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "anchor build",
+    "deploy": "anchor deploy",
+    "node": "solana-test-validator"
+  },
+  "dependencies": {
+    "@project-serum/anchor": "^0.28.0"
+  }
+}

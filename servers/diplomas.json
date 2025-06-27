@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Alice",
+    "degree": "Master Data",
+    "institution": "Université Test",
+    "year": 2025,
+    "hash": "0fb796ba6f5c959ada220a54095546e7d53dd565eb5c1486ee6f7880fe77c707"
+  },
+  {
+    "name": "Bob",
+    "degree": "Bachelor CS",
+    "institution": "Université Test",
+    "year": 2024,
+    "hash": "64ace9e81025b34554ad311402248eb2b62a768f05a58cd5a5b83a6f88bd57d7"
+  }
+]
